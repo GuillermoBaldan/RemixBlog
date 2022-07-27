@@ -31,7 +31,7 @@ return (
     </header>
     <Outlet />
     <footer>
-    ©Copyrigth 2022 BaldanCode. No Te lo copies!!
+    <small>©Copyrigth 2022 BaldanCode. No Te lo copies!!</small>
     </footer>
   </>
 )
