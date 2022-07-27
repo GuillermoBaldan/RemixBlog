@@ -15,6 +15,13 @@ export const meta = () => ({
   viewport: "width=device-width,initial-scale=1",
 });
 
+export const links = () => ([
+  {
+    rel: 'stylesheet',
+    href: globalStyles
+  }
+])
+
 function Layout () {
 return (
   <>
@@ -36,8 +43,7 @@ export default function App() {
       <head>
         <title>RemixBlog</title>
         <Meta />
-
-        <link rel='stylesheet' href={globalStyles} />
+        <Links />
       </head>
 
       <body>
