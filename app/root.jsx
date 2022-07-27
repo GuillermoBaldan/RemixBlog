@@ -1,4 +1,5 @@
 import {
+  Link,
   Links,
   LiveReload,
   Meta,
@@ -26,8 +27,9 @@ function Layout () {
 return (
   <>
     <header>
-    <h1>RemixBlog ✨</h1>
-    <p>The place where you´ll find more than code</p>
+    <Link to='/'>
+    <h3>RemixBlog ✨</h3>
+    </Link>
     </header>
     <Outlet />
     <footer>
